@@ -78,13 +78,12 @@ public class profile {
 	      scroll.setLocation(40,40);
 	      scroll.setSize(300,300);
 	      contentPane.add(scroll);
-	      
-	      
+	      	      
 	      search_1.addActionListener(new MyActionListener());
 	      view_1.addActionListener(new MyActionListener());
 	      exit_1.addActionListener(new MyActionListener());
 	           
-	      menu.setLayout(new GridLayout(1,4,0,0));
+	      menu.setLayout(new GridLayout(1,2,0,0));
 	      
 	      menu.add(view_1);
 	      menu.add(search_1);
