@@ -71,9 +71,7 @@ public class profile {
 	   public MyFrame() {
 	      setTitle("예명가수 프로필");
 	      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	     
-	    
-	      contentPane.setBackground(Color.lightGray);
+	    	     
 	      contentPane.setLayout(null);
 	      
 	      JScrollPane scroll = new JScrollPane(scrollpane);
@@ -97,7 +95,6 @@ public class profile {
 	      contentPane.add(menu);
 	      
 	      nameof.setLayout(new GridLayout(3,1,5,5));
-	      nameof.setBackground(Color.lightGray);
 	      nameof.add(name);
 	   
 	      
@@ -106,7 +103,6 @@ public class profile {
 	      contentPane.add(nameof);
 	      
 	      txt.setLayout(new GridLayout(3,1,5,5));
-	      txt.setBackground(Color.lightGray);
 	      txt.add(nametxt);
 	      
 	      
