@@ -131,9 +131,7 @@ public class profile {
 	         
 	         if(b.getText().equals("검색")){
 	            scrollpane.setText("");
-	                  
-	             
-	             
+	          	             
 	             profile searchname = pb.get(nametxt.getText());
 	            
 	                	   
@@ -144,8 +142,8 @@ public class profile {
 	             
 	             nametxt.setText("");
 	            
-	             
 	         }
+	         
 	         else if(b.getText().equals("모두 조회")){
 	            scrollpane.setText("");
 	            
