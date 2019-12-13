@@ -6,9 +6,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.JTextComponent;
-
 import jangtang2.MyFrame;
-
 
 public class profile {
 	private String name;
@@ -18,6 +16,7 @@ public class profile {
 	   private String group;
 	   private String comp;
 	   private int year;
+	   
 	   public profile (String name, String realname, int age, int hight, String group, String comp, int year) {
 	      this.name=name;
 	      this.realname=realname;
@@ -59,7 +58,7 @@ public class profile {
 	   JButton view_1 = new JButton("모두 조회");
 	   JButton exit_1 = new JButton("종료");
 	   
-	   JPanel name_phone_addr = new JPanel();
+	   JPanel nameof = new JPanel();
 	   JButton name = new JButton("이름");
 	   
 	   
@@ -97,14 +96,14 @@ public class profile {
 	      menu.setSize(440,40);
 	      contentPane.add(menu);
 	      
-	      name_phone_addr.setLayout(new GridLayout(3,1,5,5));
-	      name_phone_addr.setBackground(Color.lightGray);
-	      name_phone_addr.add(name);
+	      nameof.setLayout(new GridLayout(3,1,5,5));
+	      nameof.setBackground(Color.lightGray);
+	      nameof.add(name);
 	   
 	      
-	      name_phone_addr.setLocation(400,120);
-	      name_phone_addr.setSize(100,200);
-	      contentPane.add(name_phone_addr);
+	      nameof.setLocation(400,120);
+	      nameof.setSize(100,200);
+	      contentPane.add(nameof);
 	      
 	      txt.setLayout(new GridLayout(3,1,5,5));
 	      txt.setBackground(Color.lightGray);
