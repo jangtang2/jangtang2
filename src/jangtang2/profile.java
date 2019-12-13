@@ -89,8 +89,8 @@ public class profile {
 	           
 	      menu.setLayout(new GridLayout(1,4,0,0));
 	      
-	      menu.add(search_1);
 	      menu.add(view_1);
+	      menu.add(search_1);
 	      menu.add(exit_1);
 	 
 	      menu.setLocation(400,50);
@@ -162,7 +162,7 @@ public class profile {
 	            while(it.hasNext()){
 	               String name = it.next();
 	               profile searchname = pb.get(name);
-	               scrollpane.append(searchname.getname()+"\n");
+	               scrollpane.append( searchname.getname()+"\n");
 	               }
 	            
 	            nametxt.setText("");
